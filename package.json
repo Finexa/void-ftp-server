@@ -1,0 +1,21 @@
+{
+  "name": "void-ftp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/ftpd": "^0.2.34",
+    "ftpd": "^0.2.16",
+    "tslint-config-finexa": "^1.2.0"
+  }
+}

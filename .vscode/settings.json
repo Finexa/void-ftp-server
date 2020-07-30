@@ -1,0 +1,26 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "files.exclude": {
+    "src/**/*.js": true,
+    "src/**/*.js.map": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "editor.rulers": [
+    {
+      "column": 120
+    }
+  ],
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.format.semicolons": "insert",
+  "javascript.format.semicolons": "insert",
+  "debug.inlineValues": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true
+}
